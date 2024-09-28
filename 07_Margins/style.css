@@ -1,0 +1,27 @@
+.margin {
+  background-color: aquamarine;
+  border: 5px solid red;
+/* --------------------MARGIN--------------------
+    The CSS margin properties are used to create space around elements, outside of any defined borders. 
+    Margin are applied from the away from border of element to parent element
+    CSS has properties for specifying the margin for each side of an element:
+        margin-top
+        margin-right
+        margin-bottom
+        margin-left
+    All the margin properties can have the following values:
+        auto - the browser calculates the margin
+        length - specifies a margin in px, pt, cm, etc.
+        % - specifies a margin in % of the width of the containing element
+        inherit - specifies that the margin should be inherited from the parent element
+    margin:top right bottom left;
+    margin -auto to horizontally center element within container
+    Can set margin individually of each side (margin-top, margin-bottom,margin-right, margin-left)
+*/
+  margin: 10px;
+
+}
+
+.margin-text {
+    margin: 100px;
+}

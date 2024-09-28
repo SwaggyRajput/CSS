@@ -1,0 +1,43 @@
+.border{
+    width: 500px;
+    height: 500px;
+    background-color:aquamarine ;
+/* ------------------BORDER-WIDTH----------------
+    The border-width property specifies the width of the four borders.
+    border-width: top | right | bottom | left; 
+*/
+    border-width: 10px;
+
+/* ------------------BORDER-STYLE---------------
+    The border-style property specifies what kind of border to display.
+    The following values are allowed:
+    dotted - Defines a dotted border
+    dashed - Defines a dashed border
+    solid - Defines a solid border
+    double - Defines a double border
+    groove - Defines a 3D grooved border. The effect depends on the border-color value
+    ridge - Defines a 3D ridged border. The effect depends on the border-color value
+    inset - Defines a 3D inset border. The effect depends on the border-color value
+    outset - Defines a 3D outset border. The effect depends on the border-color value
+    none - Defines no border
+    hidden - Defines a hidden border
+*/
+border-style: solid;
+
+/* ------------------BORDER-COLOR----------------
+    The border-color property is used to set the color of the four borders.
+*/
+border-color: red;
+
+/* ------------------BORDER-RADIUS----------------
+    The border-radius property is used to round the corners of an element.
+    border-radius: top-left | top-right | bottom-right | bottom-left / top-left-radius top-right-radius bottom-right-radius bottom-left-radius | percentage;
+    100% for circle
+*/
+border-radius: 100%;
+
+/* ------------------BORDER-SHORTHAND----------------
+    border : width style color;
+*/
+border: 10px solid red ;
+}

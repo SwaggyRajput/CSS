@@ -1,0 +1,58 @@
+.css-columns{
+/* --------COLUMN-COUNT-------
+Specifies the number of columns an element should be divided into
+column-count: count; 
+*/
+    column-count: 3;
+
+/* --------COLUMN-GAP-------
+Specifies the number of columns an element should be divided into
+column-gap: gap_length; 
+*/
+    column-gap: 40px;
+
+/* --------COLUMN-SPAN-------
+Specifies how many columns an element should span acrosscolumn-span: none | all;
+none-->Default value. The element should span across one column
+all--> 	The element should span across all columns
+*/
+    column-span: all;
+
+/* --------COLUMN-WIDTH-------
+Specifies a suggested, optimal width for the columns
+column-width: length; 
+*/
+    column-width: 100px;
+
+/* --------COLUMN-FILL-------
+Specifies how to fill columns
+column-fill: auto | balance;
+balance--> Default value. Fills each column with about the same amount of content, but will not allow the columns to be taller than the height
+auto--> 	Fills each column until it reaches the height, and do this until it runs out of content
+*/
+    column-fill: balance;
+
+/* --------COLUMN-RULE-STYLE-------
+Specifies the style of the rule between columns
+column-rule-style: solid | dashed | ; 
+*/
+    column-rule-style: solid;
+    
+/* --------COLUMN-COUNT-------
+Specifies the number of columns an element should be divided into
+column-count: count; 
+*/
+    column-rule-width: 5px;
+
+/* --------COLUMN-COUNT-------
+Specifies the number of columns an element should be divided into
+column-count: count; 
+*/
+    column-rule-color: red;
+
+/* --------COLUMN-COUNT-------
+Specifies the number of columns an element should be divided into
+column-count: count; 
+*/
+    column-rule: 5px solid red;
+}

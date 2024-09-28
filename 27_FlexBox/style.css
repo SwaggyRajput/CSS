@@ -1,0 +1,158 @@
+.div1{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+.div2{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+}
+.div3{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+.div4{
+    height: 300px;
+    width: 300px;
+    background-color: violet;
+}
+.div5{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+}
+.div6{
+    height: 300px;
+    width: 300px;
+    background-color: orangered;
+}
+.div7{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+}
+
+.css-flexbox{
+display: flex;
+
+/*---------------FLEX_CONTAINER--------------
+
+    /* ---------FLEX-DIRECTION-----------------
+    The flex-direction property defines in which direction the container wants to stack the flex items.
+    flex-direction: row|row-reverse|column|column-reverse|initial|inherit; 
+    */
+    flex-direction: row;
+
+    /* ---------FLEX-WRAP-----------------
+    The flex-wrap property determines whether flex items should wrap onto a new line if they exceed the container's width.
+    flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit; 
+
+    wrap-->The wrap value specifies that the flex items will wrap if necessary:
+    nowrap(default)-->The nowrap value specifies that the flex items will not wrap (this is default):
+    wrap-reverse-->The wrap-reverse value specifies that the flexible items will wrap if necessary, in reverse order:
+
+    */
+    flex-wrap: wrap;
+
+    /* ---------FLEX-FLOW
+    The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.
+    flex-flow:flex-direction flex-wrap;
+    */
+    flex-flow: row wrap;
+
+    /* ------JUSTIFY-CONTENT----------------
+    The justify-content property is used to align the flex items:
+    justify-content: center | flext-start | flex-end | space-around | space-between;
+
+    center-->The center value aligns the flex items at the center of the container:
+    flext-start-->The flex-start value aligns the flex items at the beginning of the container (this is default):
+    flex-end-->The flex-end value aligns the flex items at the end of the container:
+    space-around-->The space-around value displays the flex items with space before, between, and after the lines:
+    space-between-->The space-between value displays the flex items with space between the lines: 
+    */
+
+
+    /* ------ALIGN-ITEMS----------------
+    The align-items property is used to align the flex items.
+    Vertically aligns the flex items when the items do not use all available space on the cross-axis
+
+    align-items: flex-start | flex-end | center | baseline | stretch;
+
+    normal(Default)--> Behaves like 'stretch' for flexbox and grid items, or 'start' for grid items with a defined block size.	
+    stretch-->      Items are stretched to fit the container	
+    center-->	    Items are positioned at the center of the container	
+    flex-start-->	Items are positioned at the beginning of the container	
+    flex-end-->	    Items are positioned at the end of the container	
+    start-->	    Items are positioned at the beginning of their individual grid cells, in the block direction	
+    end-->	        Items are positioned at the end of the their individual grid cells, in the block direction	
+    baseline-->	    Items are positioned at the baseline of the container	
+    initial-->	    Sets this property to its default value. Read about initial	
+    inherit-->	    Inherits this property from its parent element. Read about inherit 
+    */
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------FLEX_ITEMS--------------
+
+/* ---------FLEX-BASIS-----------------
+    The flex-basis property defines the initial size of a flex item before adjusting for the flex-grow and flex-shrink properties.
+    flex-basis: length|auto|initial|inherit;
+
+* ---------FLEX-GROW-----------------
+    The flex-grow property specifies how much a flex item will grow relative to the sum of the flex-grow factors of all of its siblings.
+    flex-grow: number|initial|inherit;
+
+    */
+
+    /* ---------FLEX-SHRINK-----------------
+    The flex-shrink property specifies how much a flex item will shrink relative to the sum of the flex-shrink factors of all of its siblings.
+    flex-shrink: number|initial|inherit;
+
+    */
+
+    /* ---------FLEX-ORDER-----------------
+    The flex-order property specifies the order of a flex item relative to the rest of the items inside the flex container.
+    flex-order: number|initial|inherit;
+
+    */
+
+    /* ---------FLEX-----------------
+    The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.
+    flex: flex-grow flex-shrink flex-basis;
+
+    */
+
+    /* ---------ALIGN-SELF-----------------
+    The align-self property specifies the alignment for the selected item inside the flexible container.
+    The align-self property overrides the default alignment set by the container's align-items property.
+    */
+    
+*/
+
+
+}
+
+
+
+@media screen and (max-width: 900px){
+    .css-flexbox{
+        flex-direction: column;
+    }
+}
+

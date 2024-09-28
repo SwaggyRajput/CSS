@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+.transform{
+    height: 100px;
+    width: 100px;
+    margin-left: 40%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+
+
+/* -----------TRANSLATE--------------------
+The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis). 
+*/
+transform: translate(50px,50px,50px);
+transform: translateX(50px);
+transform: translateY(50px);
+transform: translateZ(50px);
+
+
+/* -----------ROTATE--------------------
+The rotate() method rotates an element around its center by a given number of degrees. 
+*/
+transform: rotate(45deg);
+transform: rotateX(150deg);
+transform: rotateY(150deg);
+transform: rotateZ(150deg);
+
+
+/* -----------SCALE--------------------
+The scale() method scales an element horizontally and vertically. 
+The scale() method increases or decreases the size of an element 
+*/
+transform: scale(2,3,4);
+transform: scaleX(2);
+transform: scaleY(3);
+transform: scaleY(4);
+
+
+/* -----------SKEW-------------------
+The skewX() method skews an element along the X-axis by the given angle.
+The skewY() method skews an element along the Y-axis by the given angle.
+The skew() method skews an element along the X and Y-axis by the given angles.
+*/
+transform: skew(20deg,20deg,20deg);
+transform: skewX(20deg);
+transform: skewY(20deg);
+transform: skewZ(20deg);
+
+
+/* -----------MATRIX-------------------
+The matrix() method combines all the 2D transform methods into one.
+The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements.
+The parameters are as follow: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+*/
+transform: matrix(2,2,0,0,10px,10px);
+
+
+
+
+}

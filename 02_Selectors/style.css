@@ -1,0 +1,47 @@
+/* Universal Selector */
+/* *{
+    background-color: white;
+} */
+
+/* ELement Selector--> ELementName */
+/* h1{
+    color: red;
+} */
+
+/* Class Selector--> .className*/
+/* .apple{
+    color:red;
+}
+.mango{
+    color:yellowgreen;
+}
+.banana{
+    color:yellow;
+}
+.grapes{
+    color:green;
+}
+.berry{
+    color:black;
+}
+.app{
+    color: aquamarine;
+} */
+
+/* Select specific element of a class--> ELement.class(All ol element with apple class) */
+/* ol.apple{
+    list-style-type: circle;
+} */
+
+/* ID selector--> #idName */
+/* #fruits{
+    font-family: cursive;
+} */
+
+/* Grouping Selector  */
+/* li,h1 {
+  font-family: cursive;
+  text-align:center;
+} */
+
+

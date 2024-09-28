@@ -1,0 +1,80 @@
+.text-css{
+    color: red;
+/* -------------TEXT ALIGNMENT---------------
+    The text-align property is used to set the horizontal alignment of a text.
+    A text can be left or right aligned, centered, or justified.
+    text-align: center | right | left; 
+*/
+    text-align: center;
+
+/* -----------TEXT ALIGN LAST---------------
+    The text-align-last property specifies how to align the last line of a text. 
+*/
+    text-align-last: 🇨enter;
+
+
+/* -------------TEXT DIRECTION---------------
+The direction and unicode-bidi properties can be used to change the text direction of an element: 
+direction:rtl | ltr;
+
+*/
+
+/* -------------VERTICAL ALIGNMENT--------------
+The vertical-align property sets the vertical alignment of an element. 
+vertical-align:baseline | text-top | text-bottom | text-left | text-right | sub | super
+*/
+
+/* -------------TEXT DECORATION--------------
+The text-decoration-line property is used to add a decoration line to text.
+text-decoration-line:overline | line-through | underline;
+text-decoration-color:color;
+text-decoration-style: solid | double | dotted | dashed | wavy;
+text-decoration-thickness:length;
+*/
+text-decoration-line: overline;
+text-decoration-color: green;
+text-decoration-style: wavy;
+text-decoration-thickness:2px;
+text-decoration: underline yellow wavy;
+
+/* -------------TEXT TRANSFORM--------------
+The text-transform property is used to specify uppercase and lowercase letters in a text.
+text-transform: uppercase | lowercase | capitalize | none; 
+*/
+text-transform: uppercase;
+
+
+/* -------------TEXT SPACING--------------
+text-indent-->The text-indent property is used to specify the indentation of the first line of a text
+letter-spacing-->The letter-spacing property is used to specify the space between the characters in a text.
+line-height-->The line-height property is used to specify the space between lines:
+word-spacing-->The word-spacing property is used to specify the space between the words in a text.
+white-space-->The white-space property specifies how white-space inside an element is handled.
+*/
+text-indent: 100px;
+letter-spacing: 5px;
+line-height: 1.5;
+word-spacing: 10px;
+white-space: inherit; 
+
+
+/* -------------TEXT SHADOW--------------
+The text-shadow property adds shadow to text.
+text-shadow: h-shadow v-shadow blur-radius color , ...
+*/
+text-shadow: 2px 2px 1px rebeccapurple;
+
+/* -------------TEXT OVERFLOW--------------
+The text-overflow property specifies how overflowed content that is not displayed should be signaled to the user. It can be clipped, display an ellipsis (...), or display a custom string
+Both of the following properties are required for text-overflow:
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip|ellipsis|string|initial|inherit;
+clip-->remove hidden text
+ellipsis-->hidden text replaced by ...
+*/
+text-overflow: ellipsis;
+
+
+
+}

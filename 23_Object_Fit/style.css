@@ -1,0 +1,31 @@
+.css-object-fit{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    
+}
+
+.object-fit-image{
+    width: 300px;
+    height: 300px;
+
+/* --------------OBJECT-FIT-------------
+The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container
+Here is where the object-fit property comes in. The object-fit property can take one of the following values:
+
+1.fill - This is default. The image is resized to fill the given dimension. If necessary, the image will be stretched or squished to fit
+2.contain - The image keeps its aspect ratio, but is resized to fit within the given dimension
+3.cover - The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit
+4.none - The image is not resized
+5.scale-down - the image is scaled down to the smallest version of none or contain 
+*/
+    object-fit: cover;
+
+/* --------------OBJECT-POSITION-------------
+The object-position property is used together with object-fit to specify how an <img> or <video> should be positioned with x/y coordinates inside its "own content box".
+object-position: x-length y-length | left | right | center; 
+*/
+    object-position: 5px 5px;
+
+}

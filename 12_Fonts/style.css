@@ -1,0 +1,28 @@
+.css-font{
+/* -------------FONT-SIZE-----------
+The font-size property sets the size of the text.
+the default size for normal text, like paragraphs, is 16px (16px=1em).
+The text size can be set with a vw unit, which means the "viewport width".
+Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+*/
+font-size: 4vw;
+
+/* -------------FONT-WEIGHT-----------
+The font-weight property sets the weight (or thickness) of the text.
+The default weight is normal (400).
+Possible Values--> [bold, normal, lighter, bolder,length] 
+*/
+font-weight: bold;
+
+/* -------------FONT-STYLE-----------
+The font-style property sets the italic or oblique style of the text.
+Possible Values--> [normal, italic, oblique]
+*/
+font-style: italic;
+
+/* -------------FONT-FAMILY-----------
+The font-family property sets the font family for the text.
+The font family can be a name of a font, or a list of font names, separated by commas.
+*/
+font-family: Arial, sans-serif;
+}

@@ -1,0 +1,47 @@
+/* The @media rule, introduced in CSS2, made it possible to define
+ different style rules for different media types. */
+
+.css-media-query{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+
+
+/* ------------CSS MEDIA TYPES---------
+Value	Description
+all	Used for all media type devices
+print	Used for print preview mode
+screen	Used for computer screens, tablets, smart-phones etc. 
+*/
+
+/* ------------CSS COMMON MEDIA FEATURES---------
+Value	        Description
+orientation 	Orientation of the viewport. Landscape or portrait
+max-height	    Maximum height of the viewport
+min-height	    Minimum height of the viewport
+height	        Height of the viewport (including scrollbar)
+max-width   	Maximum width of the viewport
+min-width   	Minimum width of the viewport
+width	        Width of the viewport (including scrollbar) 
+*/
+
+/* ------------CSS MEDIA ---------
+. A media query consists of a media type and can contain one or more media features, which resolve to either true or false.
+  @media not|only mediatype and (media feature) and (media feature) {
+  CSS-Code;
+}
+
+Meaning of the not, only, and and keywords:
+not: This keyword inverts the meaning of an entire media query.
+only: This keyword prevents older browsers that do not support media queries from applying the specified styles. It has no effect on modern browsers.
+and: This keyword combines a media type and one or more media features.
+*/
+
+}
+
+@media not screen and (min-width: 768px){
+    .css-media-query{
+        background-color: green;
+    }
+}
+

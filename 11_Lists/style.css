@@ -1,0 +1,25 @@
+.css-ordered-list {
+
+/* --------------LIST-STYLE-TYPE--------
+ list-style-type: lower-alpha | lower-roman | upper-alpha | upper-roman; 
+*/
+  list-style-type: upper-roman;
+
+}
+
+.css-unordered-list {
+ 
+/* --------------LIST-STYLE-TYPE--------
+  list-style-type: disc | circle | square; 
+*/
+   list-style-type: disc;
+
+/* --------------LIST-STYLE-POSITION--------
+  list-style-position: inside | outside; 
+*/
+  list-style-position: inside;
+
+/* --------------LIST-STYLE-IMAGE--------*/
+list-style-image: url("https://icons.getbootstrap.com/icons/alexa/"); 
+
+}

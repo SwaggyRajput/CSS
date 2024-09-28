@@ -1,0 +1,43 @@
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px
+}
+
+/* ------CHECKED-----------------
+The :checked selector matches every checked <input> element (only for radio buttons and checkboxes) and <option> element. 
+*/
+input[type="checkbox"]:checked{
+   accent-color: red;
+   height: 30px;
+   width: 30px;
+}
+
+input[type="checkbox"] :enabled{
+    width: 25px;
+    height: 25px;
+}
+
+/* ------DISABLED-----------------
+The :disabled selector matches every disabled <input> element (only for radio buttons and checkboxes) and <option> element. 
+*/
+input[type="checkbox"]:disabled{
+    height: 20px;
+    width: 20px;
+    accent-color: green;
+}
+
+
+/* ------REQUIRED-----------------
+The :required selector matches every required <input> element (only for text, email, url, number, and date fields) and <textarea> element. 
+*/
+input[type="text"] :focus{
+    background-color: yellow;
+    
+}
+
+input[type="email"] :required{
+    background-color: red;
+}
+
+
+

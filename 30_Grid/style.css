@@ -1,0 +1,14 @@
+/* Global CSS Variables */
+:root{
+    --height:300px;
+    --width:300px;
+    --bgColor:red;
+}
+
+.css-variables{
+    /* Local CSS Variables overrides GLobal CSS Variables */
+    --bgColor:green;   
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--bgColor);
+}

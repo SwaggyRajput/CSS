@@ -1,0 +1,68 @@
+*{
+ 
+/* --------------------BACKGROUND-COLOR--------------------
+  The background-color property specifies the background color of an element.
+*/
+  background-color: aquamarine;
+
+/* --------------------BACKGROUND-IMAGE--------------------
+  The background-image property specifies an image to use as the background of an element.
+  By default, the image is repeated so it covers the entire element. 
+*/
+  background-image: url("https://images.unsplash.com/photo-1727343985165-a06b8d2738ce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDh8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D");
+
+/* --------------------BACKGROUND-REPEAT--------------------
+   By default, the background-image property repeats an image both horizontally and vertically.
+  To repeat an image vertically--> background-repeat: repeat-y;
+  To repeat an image only once--> background-repeat: no-repeat;),
+  To repeat an image both horizontally and vertically--> background-repeat: repeat;
+  To repeat an image in both directions--> background-repeat: repeat-x repeat-y;  
+  background-repeat: no-repeat | repeat-x | repeat-y | repeat;
+*/
+  background-repeat: no-repeat;
+
+/* --------------------BACKGROUND-POSITION--------------------
+  The background-position property specifies the initial position of the background image.
+  The position is defined by the horizontal and vertical coordinates.
+  By default, the background image is positioned at the top left corner of the element. 
+        left top
+        left center
+        left bottom
+        right top
+        right
+        center
+        right 
+        bottom
+        right center
+        right bottom
+        center top
+        center center
+        center bottom
+        x% y%
+        xpos ypos 
+*/
+  background-position: center center;
+
+/* --------------------BACKGROUND-ATTACHMENT------------------- 
+  The background-attachment property specifies whether the background image should scroll or be fixed 
+  Possible values can be [fixed,scroll]
+*/
+  background-attachment: fixed;
+
+/* --------------------BACKGROUND-CLIP-------------------- 
+  The background-clip property defines how far the background (color or image) should extend within an element. 
+    Possible values can be-->
+    border-box-->	Default value. The background extends behind the border	
+    padding-box-->	The background extends to the inside edge of the border	
+    content-box-->	The background extends to the edge of the content box
+*/
+  background-clip: border-box;
+
+/* --------------------BACKGROUND-SIZE-------------------- 
+  The background-size property specifies the size of the background images. 
+  background-size: auto|length(width,length)| percentage(width,length)|cover|contain|initial|inherit;
+  cover	-->Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges	
+  contain	-->Resize the background image to make sure the image is fully visible
+*/
+  background-size: cover;
+}
